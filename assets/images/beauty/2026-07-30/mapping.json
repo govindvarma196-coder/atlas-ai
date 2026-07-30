@@ -1,0 +1,82 @@
+[
+  {
+    "number": "1",
+    "productName": "Heatless Silk Hair Curler",
+    "imagePrompt": "A luxurious champagne-colored silk heatless curling ribbon set, coiled elegantly on a white marble surface, accompanied by two matching silk scrunchies, soft morning sunlight, Pinterest aesthetic, high-end lifestyle photography, no text.",
+    "fileName": "01-heatless-silk-hair-curler.png",
+    "filePath": "assets/images/beauty/2026-07-30/01-heatless-silk-hair-curler.png",
+    "status": "pending"
+  },
+  {
+    "number": "2",
+    "productName": "LED Light Therapy Mask",
+    "imagePrompt": "A sleek, futuristic white LED facial mask emitting a soft pink glow, resting on a minimalist wooden vanity next to a small green succulent, soft-focus background, clean aesthetic, high-quality skincare photography, no text.",
+    "fileName": "02-led-light-therapy-mask.png",
+    "filePath": "assets/images/beauty/2026-07-30/02-led-light-therapy-mask.png",
+    "status": "pending"
+  },
+  {
+    "number": "3",
+    "productName": "Facial Ice Roller",
+    "imagePrompt": "A stainless steel facial ice roller with tiny condensation droplets, placed on a light blue linen texture, surrounded by fresh eucalyptus leaves, bright and airy lighting, refreshing spa-like vibe, no text.",
+    "fileName": "03-facial-ice-roller.png",
+    "filePath": "assets/images/beauty/2026-07-30/03-facial-ice-roller.png",
+    "status": "pending"
+  },
+  {
+    "number": "4",
+    "productName": "Snail Mucin Power Essence",
+    "imagePrompt": "A clear glass bottle of snail mucin essence standing on a reflective wet surface with aesthetic water ripples, minimalist beige background, soft studio lighting, professional skincare product photography, no text.",
+    "fileName": "04-snail-mucin-power-essence.png",
+    "filePath": "assets/images/beauty/2026-07-30/04-snail-mucin-power-essence.png",
+    "status": "pending"
+  },
+  {
+    "number": "5",
+    "productName": "Hydrating Lip Glow Oil",
+    "imagePrompt": "A high-shine, rose-tinted lip glow oil bottle with a large plush applicator, a glossy smear of the pink product on a clean white surface next to it, soft pastel lighting, high-end makeup aesthetic, no text.",
+    "fileName": "05-hydrating-lip-glow-oil.png",
+    "filePath": "assets/images/beauty/2026-07-30/05-hydrating-lip-glow-oil.png",
+    "status": "pending"
+  },
+  {
+    "number": "6",
+    "productName": "Microcurrent Facial Device",
+    "imagePrompt": "A sleek white and chrome microcurrent facial toning device held by a hand with neutral manicured nails, soft-focus background of a modern bathroom, warm natural lighting, aesthetic wellness photography, no text.",
+    "fileName": "06-microcurrent-facial-device.png",
+    "filePath": "assets/images/beauty/2026-07-30/06-microcurrent-facial-device.png",
+    "status": "pending"
+  },
+  {
+    "number": "7",
+    "productName": "Electric Makeup Brush Cleaner",
+    "imagePrompt": "An automatic makeup brush cleaner bowl filled with clear swirling water, a clean makeup brush attached, minimalist white vanity background, clean and organized aesthetic, bright soft lighting, no text.",
+    "fileName": "07-electric-makeup-brush-cleaner.png",
+    "filePath": "assets/images/beauty/2026-07-30/07-electric-makeup-brush-cleaner.png",
+    "status": "pending"
+  },
+  {
+    "number": "8",
+    "productName": "Hydrocolloid Pimple Patches",
+    "imagePrompt": "A sheet of transparent and star-shaped hydrocolloid pimple patches on a soft peach background, minimalist aesthetic, macro close-up shot showing texture, bright and clean lighting, no text.",
+    "fileName": "08-hydrocolloid-pimple-patches.png",
+    "filePath": "assets/images/beauty/2026-07-30/08-hydrocolloid-pimple-patches.png",
+    "status": "pending"
+  },
+  {
+    "number": "9",
+    "productName": "Silicone Scalp Massager",
+    "imagePrompt": "A mint green ergonomic silicone scalp massager brush resting on a white textured tile surface with soft white soap suds, spa-like atmosphere, bright and airy lighting, Pinterest bathroom aesthetic, no text.",
+    "fileName": "09-silicone-scalp-massager.png",
+    "filePath": "assets/images/beauty/2026-07-30/09-silicone-scalp-massager.png",
+    "status": "pending"
+  },
+  {
+    "number": "10",
+    "productName": "Travel Mini Perfume Atomizer",
+    "imagePrompt": "A set of three metallic rose gold and silver mini travel perfume atomizers arranged neatly on a white silk cloth, flat-lay style, soft bokeh background, elegant and luxury travel aesthetic, no text.",
+    "fileName": "10-travel-mini-perfume-atomizer.png",
+    "filePath": "assets/images/beauty/2026-07-30/10-travel-mini-perfume-atomizer.png",
+    "status": "pending"
+  }
+]

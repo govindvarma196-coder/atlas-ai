@@ -4,6 +4,7 @@ const { generateImagePrompts } = require("./scripts/imagePromptGenerator.js");
 const { saveOutput, logError, getToday } = require("./scripts/fileSaver.js");
 const { injectLinks } = require("./scripts/linkInjector.js");
 const { exportToCsv } = require("./scripts/csvExporter.js");
+const { buildImageWorkflow } = require("./scripts/imageWorkflow.js");
 
 const SUPPORTED_NICHES = ["beauty", "fitness", "fashion", "gadgets", "books"];
 
@@ -36,6 +37,10 @@ async function main() {
 
       const csvFileName = exportToCsv(__dirname, niche, getToday(), contentWithLinks);
       console.log(`✅ CSV Saved to: output/${csvFileName}`);
+
+      const { imageDir, mapping } = buildImageWorkflow(__dirname, niche, getToday(), imageResult);
+      console.log(`✅ Image workflow ready: ${imageDir}`);
+      console.log(`✅ ${mapping.length} image slots mapped in mapping.json`);
     } catch (error) {
       console.error("❌ Error:", error.message);
       logError(__dirname, error);
