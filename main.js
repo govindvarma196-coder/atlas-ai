@@ -1,7 +1,9 @@
 const readline = require("readline");
 const { generateContent } = require("./scripts/contentGenerator.js");
 const { generateImagePrompts } = require("./scripts/imagePromptGenerator.js");
-const { saveOutput, logError } = require("./scripts/fileSaver.js");
+const { saveOutput, logError, getToday } = require("./scripts/fileSaver.js");
+const { injectLinks } = require("./scripts/linkInjector.js");
+const { exportToCsv } = require("./scripts/csvExporter.js");
 
 const SUPPORTED_NICHES = ["beauty", "fitness", "fashion", "gadgets", "books"];
 
@@ -23,13 +25,17 @@ async function main() {
       console.log("🚀 Atlas AI Started");
 
       const { prompt: contentPrompt, result: contentResult } = await generateContent(niche);
-      console.log("\n--- CONTENT ---\n" + contentResult + "\n");
+      const contentWithLinks = injectLinks(contentResult);
+      console.log("\n--- CONTENT ---\n" + contentWithLinks + "\n");
 
       const imageResult = await generateImagePrompts(niche, contentPrompt, contentResult);
       console.log("\n--- IMAGE PROMPTS ---\n" + imageResult + "\n");
 
-      const fileName = saveOutput(__dirname, niche, contentResult, imageResult);
+      const fileName = saveOutput(__dirname, niche, contentWithLinks, imageResult);
       console.log(`✅ Saved to: output/${fileName}`);
+
+      const csvFileName = exportToCsv(__dirname, niche, getToday(), contentWithLinks);
+      console.log(`✅ CSV Saved to: output/${csvFileName}`);
     } catch (error) {
       console.error("❌ Error:", error.message);
       logError(__dirname, error);
